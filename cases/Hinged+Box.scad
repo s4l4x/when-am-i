@@ -1,8 +1,8 @@
 $fn = 100;
-width = 40;
-depth = 40;
-height = 15;
-wallThickness = 1.5;
+width = 130;
+depth = 130;
+height = 25;
+wallThickness = 2;
 hingeOuter = 7;
 hingeInner = 4;
 hingeInnerSlop = .4;
