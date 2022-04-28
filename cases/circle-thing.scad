@@ -15,11 +15,12 @@ module body() {
 
   // Numbers
   pegInset = 7;
-  pegRadius = 10;
-  pegThickness = 4;
-  for (i = [0:11]) {
+  pegRadius = 4;
+  pegThickness = 5;
+  count = 24;
+  for (i = [0:count - 1]) {
     r = totalOuterRadius - totalInset - pegRadius - pegInset;
-    translate([ sin(i * 30) * r, cos(i * 30) * r, 5 ]) {
+    translate([ sin(i * 360 / count) * r, cos(i * 360 / count) * r, 5 ]) {
       cylinder(r = pegRadius, h = pegThickness);
     }
   }
