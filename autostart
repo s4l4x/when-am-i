@@ -1,0 +1,6 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+
+@xscreensaver -no-splash
+@unclutter -idle 0.1
+@chromium-browser --noerrdialogs --disable-infobars --kiosk https://csb-dih10.netlify.app
